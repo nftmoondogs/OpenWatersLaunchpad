@@ -1,0 +1,40 @@
+.App {
+    /* Black background */
+    background-color: black;
+    height: 100vh;
+  }
+  
+  .nav {
+    /* White border at the bottom */
+    border-bottom: 1px solid white;
+  }
+  
+  .logo {
+    /* Logo image size and margin */
+    width: 100px; /* Reduced by half */
+    height: auto;
+    margin: 10px;
+  }
+  
+  .button {
+    /* Button color, size, font and position */
+    
+  /* Center align the button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white; /* Changed from white */
+  color: black; /* Changed from black */
+  
+  /* Add round edges to the button */
+  border-radius: 5px;
+  
+  }
+  /* Change button color on hover using pseudo-class selector */
+  .button:hover {
+  background-color: black; /* Changed from white */
+  color: white; /* Changed from black */
+  }
+
+  
+  
